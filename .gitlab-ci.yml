@@ -1,0 +1,170 @@
+include:
+  - project: 'corp/automation/cicd/templates'
+    ref: develop
+    file:
+      - '/pipelines/templates/common-automation-settings.yml'
+      - '/pipelines/templates/common-automation-workflow.yml'
+      - '/pipelines/templates/common-automation-prereq.yml'
+      - '/pipelines/templates/common-automation-report.yml'
+      - '/pipelines/templates/common-automation-sonar.yml'
+      - '/pipelines/templates/common-automation-gitlab-scanning.yml'
+
+stages:
+  - prereq
+  - test:before
+  - test
+  - test:data-viewer-add-descriptions
+  - test:data-viewer-publish-descriptions
+  - test:data-viewer-master-vehicle-database
+  - test:data-viewer-incentive-authoring
+  - test:data-viewer-offer-authoring
+  - test:data-viewer-hosted-reports
+  - test:data-viewer-webservices
+  - test:data-viewer-layout
+  - test:after
+  - test:deploy
+
+default:
+  tags:
+    - dc:london
+
+code_quality:
+  tags: [ ]
+  image: docker:19.03.12
+  services:
+    - docker:19.03.12-dind
+
+import_xray_results:
+  before_script:
+    - apt-get update -qq
+    - apt-get -y install jq
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk8-hotspot
+  stage: test:after
+  script:
+    - jq -s 'add' target/cucumber/*.json > target/cucumber/cucumber_reports.json
+    - cat target/cucumber/cucumber_reports.json
+    - export TITLE="Data Viewer - Automation Test Execution"
+    - export DESC="Data Viewer UI Automation Test Execution for fix version "$fix_version" in environment "$environment
+    - jq -r --arg key "$TITLE" --arg desc "$DESC" --arg envKey "$environment" --arg testPKey "$test_plan_key" --arg fixVersion "$fix_version" --arg projectKey "$project_key" '.fields.summary = $key | .fields.description = $desc | .fields.customfield_15325 += [$envKey] | .fields.customfield_15327 += [$testPKey] | .fields.priority += {"id":"3"} | .fields.fixVersions += [{"name":$fixVersion}] | .fields.components += [{"name":"authoring"}] | .fields.labels += ["AutomationTestExecution"] | .fields.assignee += {"name":"GM_Auto"} | .fields.project += {"key":$projectKey}' ./src/test/resources/dataset/xray/title.json > titleUpdate.json
+    - cat titleUpdate.json
+    - curl -H "Content-Type:multipart/form-data" -u $jira_user:$jira_pass -F info=@titleUpdate.json -F result=@"target/cucumber/cucumber_reports.json" "https://$jira_url/rest/raven/2.0/import/execution/cucumber/multipart"
+  rules:
+    - when: always
+
+variables:
+  TEST_ARGS: -Denvironment=$environment -PforkNum=14 --max-workers=14 --parallel -Dwebdriver.remote.url=https://selenium-hub.gm-london.autodata.tech/wd/hub -Dwebdriver.remote.driver=edge
+
+run_data_viewer_add_descriptions:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-add-descriptions
+  allow_failure: false
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: on_success
+  script:
+    - gradle clean edgeRemoteTest --tests "gm.dataviewer.runners.DVAddDescriptionsUS" --tests "gm.dataviewer.runners.DVAddDescriptionsCA" $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_publish_descriptions:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-publish-descriptions
+  allow_failure: false
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: on_success
+  script:
+    - gradle edgeRemoteTest --tests "gm.dataviewer.runners.DVPublishDescriptionsUS" --tests "gm.dataviewer.runners.DVPublishDescriptionsCA" RunDataViewerPublishETLUS RunDataViewerPublishETLCA RestartSolrPrimerUS RestartSolrPrimerCA $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_master_vehicle_database:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-master-vehicle-database
+  allow_failure: false
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: on_success
+  script:
+    - gradle edgeRemoteTest --tests "gm.dataviewer.runners.DVMasterVehicleDB" $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_incentive_authoring:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-incentive-authoring
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: always
+  script:
+      - gradle RunAfterProgramLoadJenkinsUS RunAfterProgramLoadJenkinsCA edgeRemoteTest --tests "gm.dataviewer.runners.DVIncentiveAuthoring" $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_offer_authoring:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-offer-authoring
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: always
+  script:
+    - gradle RunAfterOfferLoadJenkinsUS RunAfterOfferLoadJenkinsCA edgeRemoteTest --tests "gm.dataviewer.runners.DVOfferAuthoring" $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_hosted_reports:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-hosted-reports
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: always
+  script:
+    - gradle edgeRemoteTest --tests "gm.dataviewer.runners.DVDealerSummary" --tests "gm.dataviewer.runners.DVProgramSearchUI" --tests "gm.dataviewer.runners.DVProgramSummaryUI" $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_webservices:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-webservices
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: always
+  script:
+    - gradle testParallel --tests "gm.dataviewer.runners.DVPublishWS" --tests "gm.dataviewer.runners.DVProgramSearchWS" $TEST_ARGS
+  timeout: 15 hours
+
+run_data_viewer_layout_verification:
+  image: docker-pull.is.autodatacorp.org/gradle:6.8.3-jdk11-hotspot
+  stage: test:data-viewer-layout
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: always
+    paths:
+      - target/*
+  rules:
+    - when: always
+  script:
+    - gradle edgeRemoteTest --tests "gm.dataviewer.runners.DVBrandLayout" --tests "gm.dataviewer.runners.DVDeltaLayout" --tests "gm.dataviewer.runners.DVFeaturesLayout" --tests "gm.dataviewer.runners.DVNameplateLayout" --tests "gm.dataviewer.runners.DVRPOLayout" --tests "gm.dataviewer.runners.DVSearchLayout" $TEST_ARGS
+  timeout: 15 hours

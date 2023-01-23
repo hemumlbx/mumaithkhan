@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "commons-io:commons-io:2.4"
+    }
+}
+
+task runStagingETLCA(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.RunStagingETLCA"
+}
+
+task runStagingETLUS(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.RunStagingETLUS"
+}
+
+task runPublishETLCA(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.RunPublishETLCA"
+}
+
+task runPublishETLUS(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.RunPublishETLUS"
+}
+
+task restartSolrIndexPrimerCA(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.RestartSolrIndexPrimerCA"
+}
+
+task restartSolrIndexPrimerUS(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.RestartSolrIndexPrimerUS"
+}
+
+task jenkinsAfterProgramLoadCA(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.JenkinsAfterProgramLoadCA"
+}
+
+task jenkinsAfterProgramLoadUS(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.JenkinsAfterProgramLoadUS"
+}
+
+task jenkinsAfterOfferLoadCA(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.JenkinsAfterOfferLoadCA"
+}
+
+task jenkinsAfterOfferLoadUS(type: JavaExec) {
+    systemProperties System.getProperties()
+    classpath = sourceSets.test.runtimeClasspath
+    main = "gm.dataviewer.utils.JenkinsAfterOfferLoadUS"
+}

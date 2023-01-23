@@ -1,0 +1,801 @@
+<OfferList
+        xmlns="http://www.autodata.net/gm/iom/offerlist"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.autodata.net/gm/iom/offerlist offerlist.xsd">
+		    <!--2017 GMC Sierra 1500 Cab Crew -->
+    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR01A-Eng</English>
+			<French>DV-OFFER-BFR01A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+		<DefineVehiclesTab>
+				<Vehicle year="2017" division="GMC" nameplate="Sierra" model="Sierra 1500">
+				<Attributes>
+				<Attribute type="Vehicle Feature Codes" category="CAB" include="true">Crew</Attribute>
+				</Attributes>
+				</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+		<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+		    <!--2018 Chevrolet Traverse NO OPTION KIND PCV -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR02A-Eng</English>
+			<French>DV-OFFER-BFR02A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+				<Vehicle year="2018" division="CHEVROLET" nameplate="Traverse" model="Traverse">
+				<Attributes>
+				<Attribute type="Option (RPO) Codes" category="NO OPTION KIND" include="true">PCV</Attribute>
+				</Attributes>
+				</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	    <!--2018 Chevrolet Impala Engine -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR03A-Eng</English>
+			<French>DV-OFFER-BFR03A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+				<Vehicle year="2018" division="CHEVROLET" nameplate="Impala" model="Impala">
+				<Attributes>
+				<Attribute type="Option (RPO) Codes" category="Engine" include="true">LCV</Attribute>
+				</Attributes>
+				</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	    <!--2017 Chevrolet Impala Engine -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR03B-Eng</English>
+			<French>DV-OFFER-BFR03B-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+				<Vehicle year="2017" division="CHEVROLET" nameplate="Impala" model="Impala">
+				<Attributes>
+				<Attribute type="Option (RPO) Codes" category="Engine" include="true">LFR</Attribute>
+				</Attributes>
+				</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+		    <!--2017 Buick Regal Edit Nameplate -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR04A-Eng</English>
+			<French>DV-OFFER-BFR04A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+				<Vehicle year="2017" division="Buick" nameplate="Regal">
+				</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	 <!--2019 Cadillac Esdcalade ESV New Nameplate NOT REQUIRED FOR BEFORE PROGRAM
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR05A-Eng</English>
+			<French>DV-OFFER-BFR05A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	-->
+	 <!--2017 Cadillac CTS Sedan Edit Brand -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR06A-Eng</English>
+			<French>DV-OFFER-BFR06A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+				<Vehicle year="2017" division="Cadillac" nameplate="CTS" model="CTS Sedan">
+				</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	 <!--2018 Chevrolet Suburban Commercial CTS Sedan Add Brand NOT REQUIRED FOR BEFORE PROGRAM
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR07A-Eng</English>
+			<French>DV-OFFER-BFR07A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	-->
+	 <!--2018 GMC Acadia Edit Feature AWD -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR08A-Eng</English>
+			<French>DV-OFFER-BFR08A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2018" division="GMC" nameplate="Acadia" model="Acadia">
+                    <Attributes>
+                        <Attribute type="Vehicle Feature Codes" category="drivetrain" include="true">All Wheel Drive</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 Chevrolet Express Passenger Archive Feature 155.0 -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR09A-Eng</English>
+			<French>DV-OFFER-BFR09A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2017" division="Chevrolet" nameplate="Express" model="Express Passenger">
+                    <Attributes>
+                        <Attribute type="Vehicle Feature Codes" category="wheelbase" include="true">155.0</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC Yukon XL MYC Transmission -->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR10A-Eng</English>
+			<French>DV-OFFER-BFR10A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2017" division="GMC" nameplate="Yukon XL" model="Yukon XL">
+                    <Attributes>
+                        <Attribute type="Option (RPO) Codes" category="Transmission" include="true">MYC</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2018 Chevrolet Suburban AA1 NOT REQUIRED
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR11A-Eng</English>
+			<French>DV-OFFER-BFR11A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	-->
+	<!--2017 GMC Canyon LCV Engine-->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR12A-Eng</English>
+			<French>DV-OFFER-BFR12A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2017" division="GMC" nameplate="Canyon" model="Canyon">
+                    <Attributes>
+                        <Attribute type="Option (RPO) Codes" category="Engine" include="true">LCV</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC Canyon LWN Engine-->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR12B-Eng</English>
+			<French>DV-OFFER-BFR12B-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2017" division="GMC" nameplate="Canyon" model="Canyon">
+                    <Attributes>
+                        <Attribute type="Option (RPO) Codes" category="Engine" include="true">LWN</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2018 Buick Lacrosse Transmission M3G-->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR13A-Eng</English>
+			<French>DV-OFFER-BFR13A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2018" division="Buick" nameplate="LaCrosse" model="LaCrosse">
+                    <Attributes>
+                        <Attribute type="Option (RPO) Codes" category="Transmission" include="true">M3G</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 Chevrolet Equinox Archive PDR NO OPTION KIND-->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR14A-Eng</English>
+			<French>DV-OFFER-BFR14A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2017" division="Chevrolet" nameplate="Equinox" model="Equinox">
+                    <Attributes>
+                        <Attribute type="Option (RPO) Codes" category="NO OPTION KIND" include="true">PDR</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC TERRAIN A4F Fleet Incentive Model-->
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR15A-Eng</English>
+			<French>DV-OFFER-BFR15A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+                <Vehicle year="2017" division="GMC" nameplate="Terrain" model="Terrain">
+                    <Attributes>
+                        <Attribute type="Option (RPO) Codes" category="Fleet Incentive" include="true">A4F</Attribute>
+                    </Attributes>
+                </Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 CHEVROLET Tahoe UE1 NO OPTION KIND NOT REQUIRED
+	    <Offer>
+        <OfferName>
+            <English>DV-OFFER-BFR16A-Eng</English>
+			<French>DV-OFFER-BFR16A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	-->
+</OfferList>

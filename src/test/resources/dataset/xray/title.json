@@ -1,0 +1,9 @@
+{
+  "fields": {
+    "summary": "summary",
+    "issuetype": {
+      "name": "Test Execution"
+    },
+    "description": "description"
+  }
+}

@@ -1,0 +1,89 @@
+ext {
+    // The drivers we want to use
+    drivers = ["edge", "edgeRemote"]
+    remote_vm = "https://selenium-hub.gm-london.autodata.tech/wd/hub"
+    webDriverProperties = [:]
+
+    ext {
+        edgeDriverVersion = '101.0.1210.32'
+    }
+}
+
+repositories {
+    maven {
+        url "https://lnoc-dvmv-xapr.autodatacorp.org/archiva/repository/internal/"
+    }
+    mavenCentral()
+}
+
+buildscript {
+    ext {
+        serenity_version = '2.3.4'
+        serenity_cucumber_version = '2.3.4'
+        junit_version = '4.13.2'
+    }
+
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+
+    dependencies {
+        classpath('net.serenity-bdd:serenity-gradle-plugin:' + serenity_version)
+        classpath('net.serenity-bdd:serenity-single-page-report:' + serenity_version)
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+apply from: "gradle/dataSetupTasks.gradle"
+apply from: "gradle/osSpecificDownloads.gradle"
+
+dependencies {
+    testImplementation 'net.serenity-bdd:serenity-core:' + serenity_version
+    testImplementation 'net.serenity-bdd:serenity-screenplay:' + serenity_version
+    testImplementation 'net.serenity-bdd:serenity-rest-assured:' + serenity_version
+    testImplementation 'net.serenity-bdd:serenity-screenplay-rest:' + serenity_version
+    testImplementation 'net.serenity-bdd:serenity-screenplay-webdriver:' + serenity_version
+    testImplementation 'net.serenity-bdd:serenity-cucumber6:' + serenity_cucumber_version
+    testImplementation 'com.jcraft:jsch:0.1.55'
+    testImplementation('org.assertj:assertj-core:3.22.0')
+    testImplementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    testImplementation group: 'org.testng', name: 'testng', version: '6.8'
+
+}
+
+drivers.each { driver ->
+    task "${driver}Test"(type: Test) {
+        outputs.upToDateWhen { false }  // Always run tests
+        maxParallelForks = (project.hasProperty("forkNum") && project.forkNum) ? project.forkNum as Integer :
+                Runtime.runtime.availableProcessors().intdiv(2) ?: 1
+    }
+}
+
+edgeTest {
+    systemProperties System.getProperties()
+    dependsOn unzipEdgeDriver
+    def edgeFilename = "msedgedriver.exe"
+    systemProperty "webdriver.edge.driver", new File(unzipEdgeDriver.outputs.files.singleFile, edgeFilename).absolutePath
+    systemProperty "webdriver.driver", "edge"
+    maxHeapSize = "8G"
+}
+
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+compileTestJava.options.encoding = "UTF-8"
+tasks.withType(Test) {
+    systemProperty "file.encoding", "UTF-8"
+}
+
+serenity {
+    reports = ["single-page-html"]
+}
+
+gradle.startParameter.continueOnFailure = true
+test.onlyIf { !project.hasProperty('skipTests') }

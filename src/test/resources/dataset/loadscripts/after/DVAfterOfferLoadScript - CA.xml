@@ -1,0 +1,761 @@
+<OfferList
+        xmlns="http://www.autodata.net/gm/iom/offerlist"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.autodata.net/gm/iom/offerlist offerlist.xsd">
+		    <!--2017 GMC Sierra 1500 Cab Crew -->
+    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT01A-Eng</English>
+			<French>DV-CA-OFFER-AFT01A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+		<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+		<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+		    <!--2018 Chevrolet Traverse NO OPTION KIND PCV -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT02A-Eng</English>
+			<French>DV-CA-OFFER-AFT02A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	    <!--2018 Chevrolet Impala Engine -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT03A-Eng</English>
+			<French>DV-CA-OFFER-AFT03A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	    <!--2017 Chevrolet Impala Engine -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT03B-Eng</English>
+			<French>DV-CA-OFFER-AFT03B-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+		    <!--2017 Buick Regal Edit Nameplate -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT04A-Eng</English>
+			<French>DV-CA-OFFER-AFT04A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	 <!--2019 Cadillac Esdcalade ESV New Nameplate -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT05A-Eng</English>
+			<French>DV-CA-OFFER-AFT05A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	 <!--2017 Cadillac CTS Sedan Edit Brand -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT06A-Eng</English>
+			<French>DV-CA-OFFER-AFT06A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	 <!--2018 Chevrolet Suburban Commercial CTS Sedan Add Brand -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT07A-Eng</English>
+			<French>DV-CA-OFFER-AFT07A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	 <!--2018 GMC Acadia Edit Feature AWD -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT08A-Eng</English>
+			<French>DV-CA-OFFER-AFT08A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 Chevrolet Express Passenger Archive Feature 155.0 -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT09A-Eng</English>
+			<French>DV-CA-OFFER-AFT09A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC Yukon XL MYC Transmission -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT10A-Eng</English>
+			<French>DV-CA-OFFER-AFT10A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2018 Chevrolet Suburban AA1 -->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT11A-Eng</English>
+			<French>DV-CA-OFFER-AFT11A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC Canyon LCV Engine-->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT12A-Eng</English>
+			<French>DV-CA-OFFER-AFT12A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC Canyon LWN Engine-->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT12B-Eng</English>
+			<French>DV-CA-OFFER-AFT12B-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2018 Buick Lacrosse Transmission M3G-->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT13A-Eng</English>
+			<French>DV-CA-OFFER-AFT13A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 Chevrolet Equinox Archive PDR NO OPTION KIND-->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT14A-Eng</English>
+			<French>DV-CA-OFFER-AFT14A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 GMC TERRAIN A4F Fleet Incentive Model-->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT15A-Eng</English>
+			<French>DV-CA-OFFER-AFT15A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+	<!--2017 CHEVROLET Tahoe UE1 NO OPTION KIND-->
+	    <Offer>
+        <OfferName>
+            <English>DV-CA-OFFER-AFT16A-Eng</English>
+			<French>DV-CA-OFFER-AFT16A-Fré</French>
+        </OfferName>
+        <SetupTab>
+            <OfferDateBegin>today</OfferDateBegin>
+            <OfferDateEnd>2040-12-31</OfferDateEnd>
+            <PurchaseType>Cash</PurchaseType>
+            <OfferType>Advertised Price</OfferType>
+            <ContentPriority>1</ContentPriority>
+            <Promotion>
+                <English>Winter Sales Event</English>
+				<French>Winter Sales Event</French>
+			</Promotion>
+            <Country>Canada</Country>
+        </SetupTab>
+				<DefineVehiclesTab>
+            <Vehicle year="2017" division="GMC" nameplate="Sierra">
+			</Vehicle>
+        </DefineVehiclesTab>
+        <DefineGeographyTab>
+            <Include>
+                <Geography firstHeading="Zones">
+                    <Value>NATIONAL</Value>
+                </Geography>
+            </Include>
+        </DefineGeographyTab>
+				<SelectIncentivesTab>
+            <Program id="">
+            </Program>
+        </SelectIncentivesTab>
+		<DefineOfferTab>
+            <CashAdvertisedPrice>
+                <MSRP>5100</MSRP>
+                <PriceEffectiveDate>today</PriceEffectiveDate>
+            </CashAdvertisedPrice>
+        </DefineOfferTab>
+		<ReadyToReview>false</ReadyToReview>
+        <PostToProduction>false</PostToProduction>
+	</Offer>
+</OfferList>
